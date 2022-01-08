@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.cards-div{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1rem !important;
+}
+.card{
+    border: 1px solid transparent;
+    max-height: 25rem;
+    border-radius: 0.4rem;
+    width: 15rem;
+    background-color: white;
+    margin: 0 0 0.9rem 0.9rem;
+}
+.info{
+    margin: 1rem 0 1rem 1rem;
+}
+.ans{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.name, .id, .launchYear, p {
+    margin: 0.7rem 0 0.7rem 0;
+    font-size: 1rem !important;
+}
+.name{
+    font-weight: 600 !important;
+    color: #5c65a8;
+}
+.card img{
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto; 
+    width: 13rem; 
+    margin-top: 1.2rem;
+    background-color: #f3f3f2;
+}
+
+@media screen and (max-width: 460px){
+    .cards-div{
+        font-size: 0.8rem !important;
+    }
+    .card{
+        max-height: 25rem;
+        width: 14rem;
+        margin: 0 0 0.9rem 0.9rem;
+    }
+    .info{
+        margin: 1rem 0 1rem 1rem;
+    }
+    .ans{
+        font-size: 0.86rem;
+        font-weight: 200;
+    }
+    .name, .id, .launchYear, p {
+        margin: 0.7rem 0 0.7rem 0;
+        font-size: 0.9rem !important;
+    }
+    .card img{
+        width: 12rem; 
+        margin-top: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .cards-div{
+        font-size: 0.8rem !important;
+        margin: 0.9rem auto 0 auto;
+    }
+    .card{
+        max-height: 25rem;
+        width: 15rem;
+        margin: 0 auto 0.9rem auto;
+    }
+    .info{
+        margin: 1rem 0 1rem 1rem;
+    }
+    .ans{
+        font-size: 0.86rem;
+        font-weight: 200;
+    }
+    .name, .id, .launchYear, p {
+        margin: 0.7rem 0 0.7rem 0;
+        font-size: 0.9rem !important;
+    }
+    .card img{
+        width: 12rem; 
+        margin-top: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 329px){
+    .cards-div{
+        margin: 0.9rem auto 0 auto;
+    }
+    .card{
+        max-height: 40rem;
+        width: 13rem;
+        margin: 0 auto 0.9rem auto;
+    }
+    .info{
+        margin: 1rem 0 1rem 1rem;
+    }
+    .ans{
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+    .name, .id, .launchYear, p {
+        margin: 0.7rem 0 0.7rem 0;
+        font-size: 0.88rem !important;
+    }
+    .card img{
+        width: 11rem; 
+        margin-top: 1.1rem;
+    }
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.filter{
+    min-width: 12rem;
+    max-width: 12rem;
+    background-color: #ffffff;
+    border-radius: 0.2rem;
+    height: 90vh !important;
+}
+
+.years, .launch, .land{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.filter button{
+    cursor: pointer;
+    margin: 1rem 1rem 0 1rem;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.2rem;
+    background: none;
+    background-color: #c4e09c;
+}
+.filter button:focus{
+    background-color: #7db906;
+}
+
+.filter h2{
+    font-size: 0.97rem;
+    font-weight: 0 !important;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.filter h3{
+    margin: 0.6rem 0.6rem;
+    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+}
+.filter hr{
+    margin-top: 0.2rem;
+    width: 8.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 477px) {
+    .filter{
+        min-width: 11rem;
+        max-width: 11rem;
+    }
+    .filter button{
+        margin: 0.7rem 0.7rem 0 0.7rem;
+        padding: 0.3rem 0.8rem;
+    }
+    
+    .filter h2{
+        font-size: 0.9rem;
+    }
+    .filter h3{
+        margin: 0.4rem 0.4rem;
+    }
+    .filter hr{
+        width: 7.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
+
+ @media screen and (max-width: 460px) {
+    .filter{
+        min-width: 10rem;
+        max-width: 10rem;
+    }
+    .filter button{
+        margin: 0.7rem 0.7rem 0 0.7rem;
+        padding: 0.2rem 0.7rem;
+    }
+    
+    .filter h2{
+        font-size: 0.8rem;
+    }
+    .filter h3{
+        font-size: 1rem;
+        margin: 0.4rem 0.4rem;
+    }
+    .filter hr{
+        width: 6.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
+
+ @media screen and (max-width: 420px){
+    .filter{
+        min-width: 15rem;
+        max-width: 15rem;
+    }
+    .filter button{
+        margin: 0.7rem 0.7rem 0 0.7rem;
+        padding: 0.4rem 1rem;
+    }
+    .launch, .land{
+        display: flex;
+        flex-direction: column;
+    }
+    .filter h2{
+        font-size: 0.89rem;
+    }
+    .filter h3{
+        font-size: 1.3rem;
+        margin: 0.4rem 0.4rem;
+    }
+ }
+
+ @media screen and (max-width: 329px){
+    .filter{
+        min-width: 13rem;
+        max-width: 13rem;
+        max-height: 34rem;
+    }
+    .filter button{
+        margin: 0.6rem 0.7rem 0 0.7rem;
+        padding: 0.3rem 0.7rem;
+    }
+    .launch, .land{
+        display: flex;
+        flex-direction: column;
+    }
+    .filter h2{
+        font-size: 0.89rem;
+    }
+    .filter h3{
+        font-size: 1rem;
+        margin: 0.4rem 0.4rem;
+    }
+    .years, .launch, .land{
+        margin-bottom: 1.6rem;
+    }
+ } 
+ 
